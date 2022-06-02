@@ -1,63 +1,110 @@
 body {
-    font-family: Lato, sans-serif;
-    margin: 0;
-    background-color:rgb(31,31,31);
-  }
+  font-family: sans-serif;
+}
 
-  h1 {
-    color: white;
-    text-align: center;
-    margin-top:3px;
-    }
+::-webkit-scrollbar {
+  width: 8px;
+}
 
-  h2 {
-    color: white;
-    text-align: center;
-    }
+::-webkit-scrollbar-track {
+  background: black;
+}
 
-    p {
-        color: white;
-        text-align: center;
-        padding: 5;
-      }
+::-webkit-scrollbar-thumb {
+  background: rgb(147,112,219);
+}
 
-    img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
+a.one:link {
+  background-color:rgb(147,112,219);
+  color: white;
+  padding: 14px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15%;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
 
-  #bar {
-    width: 100vw;
-    background-color: rgb(21,21,21);
-    font-weight: bold;
-  }
-  
-    ul {
-      list-style: none;
-      margin: 0;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center; 
-      padding: 1em 0;
-    }
-  
-    li a {
-      text-decoration: none;
-      color: white;
-      display: block;
-      padding: 1em;
-      line-height: 5px;
-      
-    }
+.text {
+  color: white;
+}
 
-    li a:hover {
-        background-color: rgb(40, 40, 40)
-      }
-  
-    li:first-child {
-      margin-right: auto;
-      margin-left: 3em;
-      font-size: 20px;
-    }
-  
+.servers:hover {
+  border-radius: 598px;
+  border-style: solid;
+  border-color: white;
+}
+
+.simg {
+  border-radius: 50%;
+}
+
+.servers {
+  width: 160px;
+  height: 160px;
+  transition: all 200ms linear;
+}
+
+.poop {
+  text-align: center;
+  padding: 18px;
+}
+
+.column {
+  display: inline-block;
+  height: 40%;
+  width: 10%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.custom-shape-divider-bottom-1650481005 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1650481005 svg {
+  position: relative;
+  display: block;
+  width: calc(125% + 1.3px);
+  height: 133px;
+}
+
+.custom-shape-divider-bottom-1650481005 .shape-fill {
+  fill: #242424;
+}
+
+.custom-shape-divider-top-1650503778 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1650503778 svg {
+  position: relative;
+  display: block;
+  width: calc(115% + 1.3px);
+  height: 109px;
+}
+
+.custom-shape-divider-top-1650503778 .shape-fill {
+  fill: #242424;
+}
+
