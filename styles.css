@@ -11,11 +11,11 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(147,112,219);
+  background: rgb(203,142,177);
 }
 
 a.one:link {
-  background-color:rgb(147,112,219);
+  background-color:rgb(203,142,177);
   color: white;
   padding: 14px 15px;
   text-align: center;
@@ -106,5 +106,63 @@ a:visited {
 
 .custom-shape-divider-top-1650503778 .shape-fill {
   fill: #242424;
+}
+
+.bottom { vertical-align: bottom; }
+
+.bg-dark {
+  background-color: #554C60;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card-body {
+  padding: 2.5rem;
+}
+
+.card-title {
+  color: #cb8eb1;
+  font-weight: 800;
+}
+
+.card-body {
+  font-weight: 600;
+}
+
+.top-right {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  text-align: right;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  text-align: right;
+}
+
+.top-left {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  text-align: right;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  text-align: right;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
